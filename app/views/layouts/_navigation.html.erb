@@ -1,0 +1,9 @@
+<% #Navigation styled for bootstrap %>
+<nav class= "navbar navbar-light bg-light">
+    <div class="container">
+        <%= link_to "Arisa Vaughns", root_path, class: 'navbar-brand' %>
+        <ul class="nav navbar-nav">
+            <%= render 'layouts/navigation_links' %> <!-- All other links should go in the navigation_links laout file. --> 
+        </ul>
+    </div>      
+</nav>
